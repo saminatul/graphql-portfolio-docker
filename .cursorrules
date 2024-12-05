@@ -1,0 +1,16 @@
+Unit Test Rules:-
+**Controller Testing:** Develop unit tests for each controller in my Express.js application using Mocha and Chai. 
+The tests should encompass all relevant HTTP methods (GET, POST, PUT, DELETE) and verify the correct status codes and response formats for each method.
+Moreover, create mock requests and responses to thoroughly test the user registration controller. 
+Ensure that the tests validate user input, returning the correct responses for both valid and invalid data entries.
+**Service Testing:** Construct unit tests for the service layer of my application, concentrating on the business logic associated with user management.
+Make sure that each method is tested to return the expected results and effectively handle any exceptions that may arise.
+ Also, generate tests for the data access layer, ensuring that every database query is rigorously tested for accuracy and can gracefully manage edge cases. 
+**Mocking and Stubbing:** Provide detailed examples of how to implement Sinon.js for mocking and stubbing dependencies in my Node.js tests, particularly for testing services that communicate with external APIs. 
+Create a set of tests that effectively mock the database layer, allowing for the verification of the logic within my service methods without directly accessing the actual database. 
+**Code Coverage:** Outline a step-by-step guide on how to set up code coverage reporting for my Node.js application using Istanbul.
+Ensure that the tests are designed to achieve at least 80% coverage of the codebase.
+Generate a comprehensive report of code coverage metrics post-test execution, with a focus on identifying any untested modules within the application.
+**Continuous Integration:** Create a thorough configuration for executing my Node.js tests within a CI/CD pipeline using GitHub Actions, ensuring that all tests are automatically run on each pull request. Write a robust script that executes all tests and provides detailed logs of failures to facilitate debugging efforts.
+**Additional Prompts:** List best practices for writing unit tests in a Node.js application to guarantee maintainability and reliability. 
+Generate a variety of test scenarios for API endpoints, emphasizing input validation and ensuring that appropriate error responses are returned."
